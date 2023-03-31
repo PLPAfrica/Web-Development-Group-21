@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+<link rel="stylesheet" href="style.css">   
+<link rel="stylesheet" href="script.js">
+<link rel="stylesheet" href="fontawesome-free-5.15.4-web\fontawesome-free-5.15.4-web\css\all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Avenue <em>Homes</em></h1>
+        </div>
+        <div class="menu">
+            <a href="#mainnav" id="menuicon">
+                <div class="hamburger"></div><br>
+               <div class="hamburger1"></div><br>
+               <div class="hamburger2"></div><br>
+            </a>   
+        </div>
+    </header>
+    <nav id="mainnav">
+        <ul id="mainmenu">
+            <li>
+                <a href="admin-index.html">Dashboard</a>
+            </li>
+            <li class="">
+                <a class="nav-link">Properties</a>
+                <ul class="dropdown-content">
+                    <li><a href="view-property.html">View Properties</a></li>
+                    <li><a href="add-property.html">Add Properties</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/dashboard">Payment</a>
+            </li>
+            <li>
+                <a href="tenants-in.html">Tenants</a>
+            </li>
+            <li>
+                <a href="/dashboard">Maintainances</a>
+            </li>
+            <li>
+                <a href="#">Users</a>
+                <ul>
+                    <li><a href="register-form.html">Register New Tenants</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="register-form">
+        <h1>Avenue <em>Homes</em></h1>
+        <h2>Register</h2>
+        <form action="">
+            <div class="container">
+                <div class="row">
+                    <div class="rownomargin">
+                        <label for="first_name">First Name:</label>
+                        <Input type="text">
+                    </div>
+                    <div class="rownomargin">
+                        <label for="last_name">Last Name:</label>
+                        <Input type="text">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="rownomargin">
+                        <label for="phone_number">Phone Number:</label>
+                        <Input type="text">
+                    </div>
+                    <div class="rownomargin">
+                        <label for="id_number">ID Number:</label>
+                        <Input type="text">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="rownomargin">
+                        <label for="property_name">Property:</label>
+                        <Input type="text">
+                    </div>
+                    <div class="rownomargin">
+                        <label for="house_number">House Number:</label>
+                        <Input type="text">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="rownomargin">
+                        <label for="date_of_arrival">Date of Arrival:</label>
+                        <Input type="text">
+                    </div>
+                    
+                </div><br>
+            </div>
+            <input type="checkbox">I hereby confirm to agreeing with the terms and conditions<br>
+            <input type="submit" value="Submit">
+            
+        </form>
+    </div>
+    
+</body>
+</html>
